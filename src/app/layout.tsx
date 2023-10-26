@@ -6,7 +6,7 @@ import Providers from "@/lib/provider";
 import localFont from "next/font/local";
 
 export const metadata = {
-  title: "Samarth Shrivastava",
+  title: "Some Earth 🌏",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-32x32.png",

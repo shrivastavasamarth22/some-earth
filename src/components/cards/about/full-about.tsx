@@ -7,7 +7,7 @@ export default function FullAboutCard() {
       <div className="w-full flex flex-col items-center justify-center text-center gap-3">
         <Image
           className="rounded-full p-3 bg-teal-100/40 dark:bg-slate-500/20"
-          src="/me/smile-square.png"
+          src="/me/hi-square.png"
           alt="Ayoub Kremcht"
           width={150}
           height={150}
