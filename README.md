@@ -1,7 +1,5 @@
-## [Live version](https://kreatordev.com)
-
 ### About
-A personal website built using nextjs & tailwindcss.
+A personal website built using NextJS & tailwindcss.
 
 ### Features
 - Simple design & focused content.
