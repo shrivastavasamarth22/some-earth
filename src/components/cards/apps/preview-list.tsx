@@ -4,7 +4,6 @@ import CardTitle from "@/shared/components/titles/card-title";
 import DevicesIcon from "@/assets/icons/devices";
 import Link from "next/link";
 import cardStyle from "@/shared/styles/card";
-import { mobileApps } from "./data/mobile-apps";
 import { webApps } from "./data/web-apps";
 
 function PreviewAppsList() {
