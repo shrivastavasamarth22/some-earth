@@ -8,10 +8,15 @@ export const webApps = [
   {
     title: "Jotion",
     description:
-      "A better note taking app.",
+      "A Better Note Taking App.",
     image: "/works/jotion/logo-dark.svg",
     link: "https://jotion-notes.vercel.app",
     path: "/work/jotion",
+    screenshots: [
+      "/works/jotion/screenshot-1.png",
+      "/works/jotion/screenshot-3.png",
+      "/works/jotion/screenshot-2.png",
+    ],
     tags: [
       "Next.js",
       "Tailwind CSS",
