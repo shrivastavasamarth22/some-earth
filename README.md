@@ -7,4 +7,4 @@ A personal website built using NextJS & tailwindcss.
 - Dark mode support.
 
 ### To-do
-- [ ] contacts section
+- [x] contacts section

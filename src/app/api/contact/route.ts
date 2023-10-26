@@ -20,7 +20,6 @@ export async function POST(request: Request) {
       subject: "Thank you for contacting me",
       from: "Samarth Shrivastava" + "<" + process.env.SENDER_EMAIL + ">",
       to: [email],
-      bcc: process.env.FORWARD_EMAIL,
       react: ContactEmailTemplate(data),
     });
     return NextResponse.json(res);
