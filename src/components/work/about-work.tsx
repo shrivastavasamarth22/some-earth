@@ -27,7 +27,7 @@ function AboutWork({ id }: { id: string }) {
             <AppItem card={findWork} hideLearnMore />
             <div className="h-3" />
             {findWork.screenshots && (
-                <div className="w-full flex flex-row gap-2">
+                <div className="w-full flex flex-row justify-center gap-x-2">
                     {findWork.screenshots.map((img, index) => (
                         <div
                             key={img}
@@ -36,7 +36,7 @@ function AboutWork({ id }: { id: string }) {
                         >
                           <Image 
                             src={img}
-                            alt={`Screenshot ${index}`}
+                            alt={`Screenshot ${index + 1}`}
                             layout="fill"
                             objectFit="cover"
                             className="rounded-2xl"

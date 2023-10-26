@@ -14,7 +14,7 @@ export const webApps = [
     path: "/work/jotion",
     screenshots: [
       "/works/jotion/screenshot-1.png",
-      "/works/jotion/screenshot-3.png",
+      // "/works/jotion/screenshot-3.png",
       "/works/jotion/screenshot-2.png",
     ],
     tags: [
