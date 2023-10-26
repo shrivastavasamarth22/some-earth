@@ -30,14 +30,24 @@ const linkByTag = (tech: string): string | undefined => {
       return "https://openai.com/docs";
     case "Google STT":
       return "https://cloud.google.com/speech-to-text";
-    case "Whisper":
-      return "https://openai.com/research/whisper";
-    case "Alpaca":
-      return "https://alpaca.markets/docs";
     case "ConvexDB":
       return "https://convex.dev";
     case "Clerk":
       return "https://clerk.dev";
+    case "Bootstrap":
+      return "https://getbootstrap.com";
+    case "Python":
+      return "https://www.python.org";
+    case "Flask":
+      return "https://flask.palletsprojects.com";
+    case "SQLAlchemy":
+      return "https://www.sqlalchemy.org";
+    case "Jinja2":
+      return "https://jinja.palletsprojects.com";
+    case "React":
+      return "https://reactjs.org";
+    case "React Native":
+      return "https://reactnative.dev";
     default:
       return;
   }

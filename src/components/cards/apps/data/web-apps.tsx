@@ -11,10 +11,11 @@ export const webApps = [
       "A better note taking app.",
     image: "/works/jotion/logo-dark.svg",
     link: "https://jotion-notes.vercel.app",
-    path: "/work/dreamshow-web",
+    path: "/work/jotion",
     tags: [
       "Next.js",
       "Tailwind CSS",
+      "React",
       "Node.js",
       "ConvexDB",
       "Clerk",
@@ -27,13 +28,30 @@ export const webApps = [
       "A REALLY good clone of spotify.",
     image: "/works/spotify/spotify-logo.svg",
     link: "https://github.com/shrivastavasamarth22/spotify-clone",
-    path: "/work/dreamshow-web",
+    path: "/work/spotify-clone",
     tags: [
       "Next.js",
       "Tailwind CSS",
       "Node.js",
+      "React",
       "Clerk",
       "Stripe"
+    ],
+    hasBorder: true,
+  },
+  {
+    title: "FreshCart",
+    description:
+      "A complete grocery app with a backend and admin dashboard.",
+    image: "/works/freshcart/freshcart-logo.png",
+    link: "https://github.com/shrivastavasamarth22/grocery-app-project",
+    path: "/work/freshcart",
+    tags: [
+      "Bootstrap",
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "Jinja2",
     ],
   },
 ];
