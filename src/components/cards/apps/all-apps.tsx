@@ -1,13 +1,12 @@
 "use client";
 
+import AppItem from "./app-item";
 import DesktopIcon from "@/assets/icons/desktop";
 import DevicesIcon from "@/assets/icons/devices";
 import MobileIcon from "@/assets/icons/mobile";
 import cardStyle from "@/shared/styles/card";
 import { scrollToTop } from "@/shared/utils/window";
 import { useState } from "react";
-import AppItem from "./app-item";
-import { mobileApps } from "./data/mobile-apps";
 import { webApps } from "./data/web-apps";
 
 function AllAppsList() {
@@ -21,17 +20,8 @@ function AllAppsList() {
       name: "WEB",
       icon: <DesktopIcon />,
     },
-    {
-      name: "MOBILE",
-      icon: <MobileIcon />,
-    },
   ];
-  const list =
-    selected == "WEB"
-      ? webApps
-      : selected == "MOBILE"
-      ? mobileApps
-      : [...webApps, ...mobileApps];
+  const list = webApps
 
   return (
     <div className={cardStyle + "mt-5 !p-1"}>
@@ -57,11 +47,7 @@ function AllAppsList() {
             <p className="text-sm font-normal">{filter.name}</p>
             <div className="w-2.5" />
             <p className="text-sm font-normal opacity-40">
-              {filter.name == "WEB"
-                ? webApps.length
-                : filter.name == "MOBILE"
-                ? mobileApps.length
-                : webApps.length + mobileApps.length}
+              {filter.name == "WEB" && webApps.length}
             </p>
           </button>
         ))}
