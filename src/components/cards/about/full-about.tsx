@@ -13,7 +13,7 @@ export default function FullAboutCard() {
           height={150}
         />
         <p className="text-xl font-bold py-4">
-          <a className="opacity-70">Hi, I{"'"}m Ayoub </a>👋
+          <a className="opacity-70">Hi, I{"'"}m Samarth </a>👋
         </p>
         <p className="opacity-95 text-3xl font-bold">
           Passionate about building{" "}
@@ -27,7 +27,7 @@ export default function FullAboutCard() {
           <a className="font-semibold text-dark dark:text-light/90">
             software developer
           </a>{" "}
-          based in Morocco.
+          based in Bhopal.
         </p>
         <p className="text-[17px] text-neutral-500 2xs:px-2 xs:px-5 leading-relaxed">
         Currently interested on developing quality applications as solutions that effectively solve problems, rather than just providing solutions.

@@ -1,12 +1,12 @@
-import DevicesIcon from "@/assets/icons/devices";
 import CardTitle from "@/shared/components/titles/card-title";
+import DevicesIcon from "@/assets/icons/devices";
 import cardStyle from "@/shared/styles/card";
-import tagStyle from "@/shared/styles/tag";
 import linkByTag from "../apps/data/link-by-tag";
 import { mobileApps } from "../apps/data/mobile-apps";
+import tagStyle from "@/shared/styles/tag";
 import { webApps } from "../apps/data/web-apps";
 
-export const uniqueTags = [...webApps, ...mobileApps]
+export const uniqueTags = [...webApps]
   .map((item) => item.tags || [])
   .flat()
   .filter((item, index, array) => array.indexOf(item) === index)

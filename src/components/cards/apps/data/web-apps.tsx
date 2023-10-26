@@ -21,21 +21,21 @@ export const webApps = [
     ],
     hasBorder: true,
   },
-  // {
-  //   title: "Spotify Clone",
-  //   description:
-  //     "A REALLY good clone of spotify.",
-  //   image: "/works/spotify/spotify-logo.svg",
-  //   link: "https://github.com/shrivastavasamarth22/spotify-clone",
-  //   path: "/work/dreamshow-web",
-  //   tags: [
-  //     "Next.js",
-  //     "Tailwind CSS",
-  //     "Node.js",
-  //     "Clerk",
-  //     "Stripe"
-  //   ],
-  // },
+  {
+    title: "Spotify Clone",
+    description:
+      "A REALLY good clone of spotify.",
+    image: "/works/spotify/spotify-logo.svg",
+    link: "https://github.com/shrivastavasamarth22/spotify-clone",
+    path: "/work/dreamshow-web",
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Clerk",
+      "Stripe"
+    ],
+  },
 ];
 
 function WebAppsList() {
