@@ -1,31 +1,32 @@
-// "use client";
+"use client";
 
-// import { useEffect, useState } from "react";
-// import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import { useEffect, useState } from "react";
 
-// export default function ReCaptchaWrapper({ children }: any) {
-//   const [isClient, setIsClient] = useState(false);
-//   useEffect(() => {
-//     setIsClient(true);
-//   }, []);
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
-//   if (!isClient) return null;
-//   return (
-//     <GoogleReCaptchaProvider
-//       reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
-//       scriptProps={{
-//         async: false,
-//         defer: false,
-//         appendTo: "head",
-//         nonce: undefined,
-//       }}
-//       container={{
-//         parameters: {
-//           theme: "dark",
-//         },
-//       }}
-//     >
-//       {children}
-//     </GoogleReCaptchaProvider>
-//   );
-// }
+export default function ReCaptchaWrapper({ children }: any) {
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) return null;
+  return (
+    <GoogleReCaptchaProvider
+      reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+      scriptProps={{
+        async: false,
+        defer: false,
+        appendTo: "head",
+        nonce: undefined,
+      }}
+      container={{
+        parameters: {
+          theme: "dark",
+        },
+      }}
+    >
+      {children}
+    </GoogleReCaptchaProvider>
+  );
+}
