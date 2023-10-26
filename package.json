@@ -1,5 +1,5 @@
 {
-  "name": "kreatordev",
+  "name": "shrivastavasamarth22",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,7 @@
     "next": "13.5.6",
     "next-themes": "^0.2.1",
     "react": "^18",
-    "react-dom": "^18",
-    "react-google-recaptcha-v3": "^1.10.1",
-    "resend": "^1.1.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
