@@ -6,12 +6,12 @@ import Providers from "@/lib/provider";
 import localFont from "next/font/local";
 
 export const metadata = {
-  title: "Some Earth 🌏",
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
+    title: "Some Earth",
+    icons: {
+        icon: "/favicon.ico",
+        shortcut: "/favicon-32x32.png",
+        apple: "/apple-touch-icon.png",
+    },
 };
 
 export default function RootLayout({
