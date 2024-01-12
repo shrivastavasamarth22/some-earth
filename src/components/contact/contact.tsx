@@ -13,7 +13,7 @@ export default function Contact() {
                 <div onSubmit={() => {}} className={cardStyle}>
                     <CardTitle title="CONTACT" icon={<MailIcon />} />
                     <p className="text-md mb-1 mt-7">My Email:</p>
-                    <h2 className="text-2xl font-bold">
+                    <h2 className="text-lg md:text-2xl font-bold">
                         shrivastavasamarth22@gmail.com
                     </h2>
                 </div>

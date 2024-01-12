@@ -6,6 +6,15 @@ import Link from "next/link";
 
 export const webApps = [
     {
+        title: "Taskify",
+        description: "An amazing task management tool for teams of all sizes",
+        image: "/works/taskify/logo.svg",
+        link: "https://taskify-management-app.vercel.app",
+        path: "/work/taskify",
+        tags: ["Next.js", "Tailwind CSS", "React", "Node.js", "Clerk"],
+        hasBorder: true,
+    },
+    {
         title: "Jotion",
         description: "A Better Note Taking App.",
         image: "/works/jotion/logo-dark.svg",
@@ -13,7 +22,7 @@ export const webApps = [
         path: "/work/jotion",
         screenshots: [
             "/works/jotion/screenshot-1.png",
-            // "/works/jotion/screenshot-3.png",
+            // "/works/jotion/screenshot-3.png",1
             "/works/jotion/screenshot-2.png",
         ],
         tags: [
