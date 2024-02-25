@@ -13,6 +13,7 @@ export const webApps = [
 		path: "/work/taskify",
 		tags: ["Next.js", "Tailwind CSS", "React", "Node.js", "Clerk"],
 		hasBorder: true,
+		screenshots: [],
 	},
 	{
 		title: "Jotion",
