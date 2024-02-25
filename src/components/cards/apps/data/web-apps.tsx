@@ -20,10 +20,6 @@ export const webApps = [
 		image: "/works/jotion/logo-dark.svg",
 		link: "https://github.com/shrivastavasamarth22/jotion-legacy",
 		path: "/work/jotion",
-		screenshots: [
-			"/works/jotion/screenshot-1.png",
-			"/works/jotion/screenshot-2.png",
-		],
 		tags: [
 			"Next.js",
 			"Tailwind CSS",
