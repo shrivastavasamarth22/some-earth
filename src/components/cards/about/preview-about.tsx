@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import cardStyle from "@/shared/styles/card";
 import { scrollToTop } from "@/shared/utils/window";
-
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 export default function PreviewAboutCard({
     className,
 }: {
@@ -27,10 +27,10 @@ export default function PreviewAboutCard({
                     height={69}
                 />
             </div>
-            <p className="text-base font-normal opacity-70 leading-relaxed mt-3 mb-6">
-                A software developer from Bhopal interested in building apps as
-                solutions.
-            </p>
+            <TextGenerateEffect 
+				words="A software developer from Bhopal interested in building apps as solutions."
+			/>
+                
             <Link
                 onClick={() => {
                     scrollToTop();
