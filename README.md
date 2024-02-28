@@ -6,5 +6,3 @@ A personal website built using NextJS & tailwindcss.
 - Responsive.
 - Dark mode support.
 
-### To-do
-- [x] contacts section
