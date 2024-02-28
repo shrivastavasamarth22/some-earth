@@ -4,7 +4,6 @@ import CardTitle from "@/shared/components/titles/card-title";
 import LinksGridCard from "../cards/links/links-grid";
 import MailIcon from "@/assets/icons/mail";
 import cardStyle from "@/shared/styles/card";
-import { TextRevealCard } from "@/components/ui/text-reveal-card";
 
 export default function Contact() {
     return (
