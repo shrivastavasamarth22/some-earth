@@ -2,6 +2,7 @@ import {
   githubIcon,
   linkedinIcon,
   xIcon,
+  instagramIcon
 } from "@/assets/icons/all-social";
 
 const linksCards = [
@@ -22,6 +23,12 @@ const linksCards = [
     className: "p-4 bg-dark dark:bg-white",
     href: "https://x.com/oyesamarth",
     icon: xIcon,
+  },
+  {
+	title: "Instagram",
+	className: "dark:bg-white overflow-hidden",
+	href: "https://www.instagram.com/_samcor3/",
+	icon: instagramIcon,
   },
 ];
 
