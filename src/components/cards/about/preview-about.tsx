@@ -28,7 +28,7 @@ export default function PreviewAboutCard({
                 />
             </div>
             <TextGenerateEffect 
-				words="A software developer from Bhopal interested in building apps as solutions."
+				words="A software developer & graphic designer from Bhopal interested in building apps as solutions."
 				className="text-base font-normal leading-relaxed mt-3 mb-6"
 			/>
                 

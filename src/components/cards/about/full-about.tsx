@@ -2,7 +2,7 @@ import { ArrowLeftRight } from "lucide-react";
 import Image from "next/image";
 import cardStyle from "@/shared/styles/card";
 import { EvervaultCard } from "@/components/ui/evervault-card";
-
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 export default function FullAboutCard() {
 	return (
 		<div className={cardStyle + "!py-12 !px-4"}>
@@ -29,16 +29,16 @@ export default function FullAboutCard() {
 				<p className="text-lg text-neutral-500 py-3">
 					a{" "}
 					<a className="font-semibold text-dark dark:text-light/90">
-						software developer
+						software developer & graphic designer
 					</a>{" "}
 					based in Bhopal{" "}
 					{<ArrowLeftRight size={16} className="inline" />} Chennai.
 				</p>
-				<p className="text-[17px] text-neutral-500 2xs:px-2 xs:px-5 leading-relaxed">
-					Currently interested on developing quality applications as
-					solutions that effectively solve problems, rather than just
-					providing solutions.
-				</p>
+				<TextGenerateEffect
+					words="Currently interested on developing quality applications as solutions that effectively solve problems, rather than just providing solutions."
+					className="text-[17px] text-neutral-500 leading-relaxed" 
+				/>
+					
 			</div>
 		</div>
 	);
