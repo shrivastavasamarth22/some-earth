@@ -19,7 +19,7 @@ export const webApps = [
 		title: "Jotion",
 		description: "A Better Note Taking App.",
 		image: "/works/jotion/logo-dark.svg",
-		link: "https://github.com/shrivastavasamarth22/jotion-legacy",
+		link: "https://jotion-notes-app-ten.vercel.app",
 		path: "/work/jotion",
 		tags: [
 			"Next.js",
